@@ -206,26 +206,29 @@
 
 
 <section>
-	<div class="container">
+		<div class="container">
 		<div class="row">
-		  <div class="col-12 col-md-6">
-			<div class="content style4 featured">
-			  <div class="container medium">
-				<form action="https://formsubmit.co/roberto_aki@hotmail.com" method="post" action="#" class="form-overlay">
-				  <div class="row gtr-50">
-					<div class="col-12"><input type="text" placeholder="Nome" required /></div>
-					<div class="col-12"><input type="email" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" /></div>
-					<div class="col-12"><textarea name="message" placeholder="Mensagem" style="resize: none;"></textarea></div>
-					<div class="col-12">
-					  <ul class="actions special">
-						<li><input type="submit" class="button" value="Enviar Mensagem" /></li>
-					  </ul>
+			<div class="col-12 col-md-6">
+				<div class="content style4 featured">
+					<div class="container medium">
+						<form action="https://formsubmit.co/roberto_aki@hotmail.com" method="post" class="form-overlay">
+							<div class="row gtr-50">
+								<div class="col-12"><input type="text" name="name" placeholder="Nome" required /></div>
+								<div class="col-12"><input type="email" name="email" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" /></div>
+								<div class="col-12"><textarea name="message" placeholder="Mensagem" style="resize: none;" required></textarea></div>
+								<div class="col-12">
+									<ul class="actions special">
+										<li><input type="submit" class="button" value="Enviar Mensagem" /></li>
+									</ul>
+									<p id="success-message" style="display: none;">Mensagem enviada com sucesso!</p>
+								</div>
+							</div>
+						</form>
 					</div>
-				  </div>
-				</form>
-			  </div>
+				</div>
 			</div>
-		  </div>
+
+			
 		  <div class="col-12 col-md-6">
 			<h2 class="atendimento" style="color: rgb(22, 18, 12);;">ATENDIMENTO EM TODO TERRITÓRIO NACIONAL</h2>
 			<ul>
